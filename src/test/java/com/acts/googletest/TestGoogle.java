@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import com.acts.utils.Utils;
 
-public class GoogleTest {
+public class TestGoogle {
     private WebDriver driver;
 
     String url = "http://google.com";
