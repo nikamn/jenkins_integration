@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.acts.utils.Utils;
 
-public class TestCheckBox {
+public class CheckBoxTest {
 
     private WebDriver driver;
 

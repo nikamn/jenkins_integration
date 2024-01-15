@@ -4,9 +4,10 @@
      <test name="Regression">
           <classes>
                <class name="com.acts.googletest.GoogleTest"/>
-               <!-- <class name="com.acts.webelements.TestCheckBox"/> -->
-               <!-- <class name="com.acts.webelements.TestRadioButton"/> -->
-               <!-- <class name="com.acts.webelements.TestSelectMenu"/> -->
+               <!-- <class name="com.acts.webelements.CheckBoxTest"/> -->
+               <!-- <class name="com.acts.webelements.RadioButtonTest"/> -->
+               <!-- <class name="com.acts.webelements.SelectMenuTest"/> -->
+               <class name="com.acts.webelements.TableTest"/>
           </classes>
      </test>
 </suite>

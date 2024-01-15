@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import com.acts.utils.Utils;
 
-public class TestSelectMenu {
+public class SelectMenuTest {
     private WebDriver driver;
 
     String url = "https://demo.automationtesting.in/Register.html";

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.acts.utils.Utils;
 
-public class TestRadioButton {
+public class RadioButtonTest {
     private WebDriver driver;
 
     String url = "https://demo.automationtesting.in/Register.html";
