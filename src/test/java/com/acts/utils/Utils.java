@@ -6,7 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+<<<<<<< HEAD
 import org.openqa.selenium.chrome.ChromeOptions;
+=======
+>>>>>>> d83b02b9cb57efd16cd09f6554a558ef9e4ce7c8
 import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -14,9 +17,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Utils {
     // get webdriver instance
     public static WebDriver getWebDriver() {
+<<<<<<< HEAD
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-dev-shm-usage");
 
+=======
+>>>>>>> d83b02b9cb57efd16cd09f6554a558ef9e4ce7c8
         WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -39,3 +40,8 @@ bin/
 obj/
 migrations/
 wwwroot/
+=======
+target/
+.vscode/
+
+>>>>>>> d83b02b9cb57efd16cd09f6554a558ef9e4ce7c8
