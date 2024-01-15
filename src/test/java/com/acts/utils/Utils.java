@@ -16,6 +16,7 @@ public class Utils {
     public static WebDriver getWebDriver() {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--headless");
 
         WebDriverManager.chromedriver().setup();
 
