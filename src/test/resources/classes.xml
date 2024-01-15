@@ -3,18 +3,11 @@
 <suite name="Testing Google Apps">
      <test name="Regression">
           <classes>
-<<<<<<< HEAD
-               <!-- <class name="com.acts.googletest.GoogleTest"/> -->
-               <!-- <class name="com.acts.webelements.TestCheckBox"/> -->
-               <!-- <class name="com.acts.webelements.TestRadioButton"/> -->
-               <class name="com.acts.webelements.TestSelectMenu"/>
-=======
                <class name="com.acts.googletest.GoogleTest"/>
                <!-- <class name="com.acts.webelements.CheckBoxTest"/> -->
                <!-- <class name="com.acts.webelements.RadioButtonTest"/> -->
                <!-- <class name="com.acts.webelements.SelectMenuTest"/> -->
                <class name="com.acts.webelements.TableTest"/>
->>>>>>> d83b02b9cb57efd16cd09f6554a558ef9e4ce7c8
           </classes>
      </test>
 </suite>
