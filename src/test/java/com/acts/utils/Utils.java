@@ -14,6 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Utils {
     // get webdriver instance
     public static WebDriver getWebDriver() {
+        System.setProperty("webdriver.chrome.driver", "/home/nishant/.cache/selenium/chromedriver/linux64/120.0.6099.109/chromedriver");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--disable-dev-shm-usage");
         // chromeOptions.addArguments("--headless");
